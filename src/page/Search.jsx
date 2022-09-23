@@ -25,7 +25,7 @@ const Search = () => {
                         <h5>Status: {e.status == 0 ? '仲健在' : '已執7'}</h5>
                         <h5>Location: {e.location}</h5>
                         <Link to={{
-                            pathname: "/details",
+                            pathname: "/game_website/details",
                             search: '?id=' + e.id,
                             state: { fromDashboard: true }
                         }}>
