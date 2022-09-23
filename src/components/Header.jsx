@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='bg-info text-center'>
-            <Link to={{ pathname: "/", }}>
+            <Link to={{ pathname: "/game_website/", }}>
                 <p>Game Center</p>
             </Link >
         </div>
