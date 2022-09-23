@@ -14,8 +14,9 @@ function App() {
       <SearchBar />
       <Routes>      
         <Route path="/" element={<Home />} />
-        <Route path="/details" exact element={<Details />} /> 
-        <Route path="/results" exact element={<Search />} /> 
+        <Route path="/game_website/" element={<Home />} />
+        <Route path="/game_website/details" exact element={<Details />} /> 
+        <Route path="/game_website/results" exact element={<Search />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>
